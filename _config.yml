@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Kwong's Blog
+subtitle: Coding
+description: Coding Articles
+keywords: Java,JavaScript
+author: Weitong Kwong
+language: zh-CN
+email: kwongwt@outlook.com
 timezone:
 
 # URL
@@ -39,20 +40,20 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
-  
+    enable: true
+    line_number: true
+    auto_detect: false
+    tab_replace:
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  
+    path: ""
+    per_page: 10
+    order_by: -date
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -73,11 +74,19 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/kwongwt/Kwongwt.github.io.git
-  branch: master
+    type: git
+    repository: https://github.com/kwongwt/Kwongwt.github.io.git
+    branch: master
+    
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: xMInv6EIwFb1QLI0XnqlMPjr-gzGzoHsz
+  app_key: A2YgvAJx8K6YXWcpJ3gg9XXq
+  username: kwongwt
+  password: kwongwt123
